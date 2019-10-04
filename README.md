@@ -37,3 +37,14 @@ The requirements for this project are as follows:
 ## Go Further
 
 After you finish with these requirements, spend the rest of the time improving coverage on your unit tests, improving the UI tests and improving overall performance.
+
+
+## List of Bugs
+CongresspersonProfileViewModel:
+removed parameter and put it as a var in the class
+
+OfficialOverview:
+append a space after firstName
+removed toLowerCase on the return
+
+memory increases in the app when you click a card view and then return from that activity
