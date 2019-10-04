@@ -43,4 +43,8 @@ After you finish with these requirements, spend the rest of the time improving c
 CongresspersonProfileViewModel:
 removed parameter and put it as a var in the class
 
+OfficialOverview:
+append a space after firstName
+removed toLowerCase on the return
+
 memory increases in the app when you click a card view and then return from that activity
