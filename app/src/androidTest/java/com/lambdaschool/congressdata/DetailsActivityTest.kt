@@ -32,6 +32,7 @@ class DetailsActivityTest {
         onView(withId(R.id.profile_twitter)).check(matches(withText("Twitter")))
         onView(withId(R.id.profile_facebook)).check(matches(withText("Facebook")))
         onView(withId(R.id.profile_map)).check(matches(withText("1721 Longworth House Office Building")))
+        onView(withId(R.id.profile_phone)).check(matches(withText("202-225-4306")))
 
 
     }
