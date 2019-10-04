@@ -38,7 +38,7 @@ class OfficialOverview {
     private fun buildDisplayName(): String {
         val nameBuilder = StringBuilder()
         nameBuilder.append(firstName).append(" ")
-        if (middleName != "null") {
+        if (middleName != "null" && !middleName.isNullOrBlank()) {
             nameBuilder.append(middleName).append(" ")
         }
         nameBuilder.append(lastName)

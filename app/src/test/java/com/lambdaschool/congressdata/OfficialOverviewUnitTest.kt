@@ -26,4 +26,23 @@ class OfficialOverviewUnitTest {
 
     }
 
+    @Test
+    fun testConstructorNoMiddleName(){
+        val firstName = "B."
+        val middleName = ""
+        val lastName = "Berrett"
+        val party = "yes i do"
+        val state = "UT"
+        val id = "12"
+
+        val overviewTest = OfficialOverview(firstName, middleName, lastName, party, state, id)
+
+        assertEquals("12", overviewTest.id)
+        assertEquals("yes i do",overviewTest.party)
+        assertEquals("UT", overviewTest.state)
+        assertEquals("B. Berrett", overviewTest.displayName)
+
+
+    }
+
 }
